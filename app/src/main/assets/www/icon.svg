@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#168BFF"/>
+      <stop offset="50%" stop-color="#0646B5"/>
+      <stop offset="100%" stop-color="#061B55"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DCE8FF"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFD76A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <circle cx="430" cy="75" r="100" fill="#FFFFFF" opacity=".06"/>
+  <rect x="100" y="83" width="290" height="340" rx="25" fill="#00133D" opacity=".3" filter="url(#shadow)"/>
+  <path d="M115 85 Q115 65 140 65 H320 L400 145 V405 Q400 425 380 425 H135 Q115 425 115 405 Z" fill="url(#paper)"/>
+  <path d="M320 65 V125 Q320 145 340 145 H400" fill="#B9CEEF"/>
+  <path d="M320 65 L400 145 H340 Q320 145 320 125 Z" fill="#FFFFFF"/>
+  <text x="145" y="190" font-family="Arial,sans-serif" font-size="76" font-weight="900" fill="#092D70">IK</text>
+  <rect x="145" y="210" width="75" height="7" rx="4" fill="url(#gold)"/>
+  <g fill="#9CB3D8">
+    <rect x="145" y="245" width="210" height="11" rx="6"/>
+    <rect x="145" y="275" width="185" height="11" rx="6"/>
+    <rect x="145" y="305" width="200" height="11" rx="6"/>
+  </g>
+  <path d="M150 365 Q185 320 210 360 Q225 390 250 355 Q270 330 280 365 Q300 385 350 350" fill="none" stroke="#092D70" stroke-width="7" stroke-linecap="round"/>
+  <g transform="rotate(38 350 260)">
+    <rect x="340" y="180" width="30" height="155" rx="14" fill="#08275F"/>
+    <rect x="345" y="180" width="7" height="125" rx="4" fill="#7FAFFF"/>
+    <path d="M340 335 L370 335 L355 370 Z" fill="#D5E4FA"/>
+    <path d="M350 360 L360 360 L355 370 Z" fill="#F59E0B"/>
+    <rect x="338" y="215" width="34" height="9" rx="4" fill="#DCE8FF"/>
+  </g>
+  <path d="M75 390 Q160 465 310 445" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round"/>
+  <text x="256" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#FFFFFF" letter-spacing="2">IKROM MAULANA</text>
+</svg>
